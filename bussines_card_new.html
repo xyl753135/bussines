@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>璿霙科技有限公司</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Noto Serif TC', serif;
+            background-color: #f3f0e9;
+        }
+        .card {
+            width: 360px;
+            height: 200px;
+            background-color: #f9f7f2;
+            border: 1px solid #d0c9b8;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        .logo-section {
+            width: 35%;
+            background-color: #e0d9cc;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px 10px;
+            box-sizing: border-box;
+        }
+        .logo {
+            width: 100%;
+            height: auto;
+        }
+        .company-name {
+            color: #3a3530;
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .company-tax-id {
+            color: #4a4540;
+            font-size: 10px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .company-name-en {
+            color: #4a4540;
+            font-size: 8px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .info-section {
+            width: 65%;
+            padding: 15px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .name {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2a2620;
+            margin-bottom: 2px;
+        }
+        .en-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: #2a2620;
+            margin-bottom: 2px;
+        }
+        .title {
+            font-size: 11px;
+            color: #3a3530;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .contact-info {
+            font-size: 12px;
+            color: #3a3530;
+            font-weight: 500;
+        }
+        .contact-info p {
+            margin: 2px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact-info p i {
+            width: 14px;
+            height: 14px;
+            margin-right: 6px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            color: #5c5346;
+        }
+        .contact-info a {
+            color: #3a3530;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: #2a2620;
+            font-weight: 700;
+        }
+        .zen-circle {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            width: 25px;
+            height: 25px;
+            border: 1px solid #b4aea2;
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="logo-section">
+            <img src="cropped-cropped-unnamed_Background-Removal.png" alt="Xytech Logo" class="logo">
+            <div class="company-name">
+                璿霙科技有限公司
+            </div>
+            <div class="company-tax-id">
+                統編:89798198
+            </div>
+            <div class="company-name-en">
+                Xuan Ying Technology Co., Ltd.
+            </div>
+        </div>
+        <div class="info-section">
+            <div>
+                <div class="name">林璿霙<span class="en-name">Scott Lin</span></div>
+                <div class="title">
+                    資深程式設計師<br>
+                    Senior Developer
+                </div>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-mobile-alt"></i><a href="tel:+886953086552">+886 953086552</a></p>
+                <p><i class="fab fa-line"></i><a href="https://line.me/ti/p/ShR-E0PYnw">LineID:xytech</a></p>
+                <p><i class="fas fa-envelope"></i><a href="mailto:xytech.tk@gmail.com">xytech.tk@gmail.com</a></p>
+                <p><i class="fas fa-globe"></i><a href="https://xytech.great-site.net/" target="_blank">https://xytech.great-site.net/</a></p>
+                <p><i class="fas fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/cKceZ9KsEGF3yJqi7" target="_blank">台北市內湖區環山路二段26巷17號</a></p>
+            </div>
+        </div>
+        <div class="zen-circle"></div>
+    </div>
+</body>
+</html>
